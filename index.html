@@ -4,9 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
+  <link rel="stylesheet" href="style/body.css">
   <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/greetings.css">
+  <link rel="stylesheet" href="style/attendance-summary.css">
+
+  <script src="script/dashboard.js"></script>
+  <script src="script/header.js"></script>
+  <script src="script/attendance-summary.js"></script>
+
+
 </head>
 <body>
+  <!-- Header Section-->
   <div class="header">
     <div class="logo">RFID Attendance</div>
     <nav class="nav">
@@ -20,6 +30,25 @@
       <img src="image/default-profile.jpg" alt="Profile" class="profile-icon">
     </div>
   </div>
-  <h1 style="margin-left: 10px;">Dashboard</h1>
+  <!-- Header Section-->
+
+  <!-- Greetings Section -->
+  <div class="greetings">
+    <h1></h1>
+    <p></p>
+  </div>
+  <!-- Greetings Section -->
+
+  <!-- Attendance Summary Section -->
+  <div class="attendance-summary">
+    <h1>Today's Class</h1>
+    <div>
+      <p>Present: <span class="present">56</span></p>
+      <p>Late: <span class="late">3</span></p>
+      <p>Absent: <span class="absent">1</span></p>
+      <p>Attendance: <span class="total">59/60</span></p>
+    </div>
+  </div>
+
 </body>
 </html>

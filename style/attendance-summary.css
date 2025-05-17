@@ -1,0 +1,17 @@
+.attendance-summary {
+    display:inline-block;
+    background-color: beige;
+    margin: 20px;
+    padding: 20px; 
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+
+.attendance-summary h1 {
+    margin: 0 0 0;
+}
+
+.attendance-summary div {
+    margin-top: 20px;
+    list-style: none;
+}
