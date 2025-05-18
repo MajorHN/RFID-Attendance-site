@@ -4,3 +4,15 @@
     background-color: lightgoldenrodyellow ;
     text-align: center;
 }
+
+.greetings h1 {
+    margin: 10px 0 0 0;
+    color: cadetblue;
+    font-size: 40px;
+}
+
+.greetings p {
+    margin: 0 0 10px 0;
+    color: yellowgreen;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+.content h1 {
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 12px;
+    font-size: 1.8rem;
+}
+
+.attendance-record {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid goldenrod;
+    box-shadow: 0 4px 10px rgba(218,165,32,0.2);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid goldenrod;
+}
+
+th {
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #fffdf0;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: darkcyan;
+}

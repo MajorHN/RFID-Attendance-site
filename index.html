@@ -31,13 +31,49 @@
     </div>
     <!-- Greetings -->
 
-
-
-
+    <!-- <div class="attendance-summary">
+        <h1>Today's Attendance</h1>
+        <table>
+          <tr>
+            <td>Present:</td>
+            <td class="present">52</td>
+          </tr>
+          <tr>
+            <td>Late:</td>
+            <td class="late">4</td>
+          </tr>
+          <tr>
+            <td>Absent:</td>
+            <td class="absent"></td>
+          </tr>
+          <tr>
+            <td>Total:</td>
+            <td class="total-present"></td>
+            <td class="total-students"></td>
+          </tr>
+        </table>
+    </div> -->
 
     
+
+
   </div>
   <!-- Content Section -->
+
+  <!-- <script>
+    window.onload = function() {
+      const present = parseInt(document.querySelector(".present").textContent) || 0;
+      const late = parseInt(document.querySelector(".late").textContent) || 0;
+      const totalStudents = 60; // You can make this dynamic if needed
+
+      const totalPresent = present + late;
+      const absent = totalStudents - totalPresent;
+
+      document.querySelector(".total-present").textContent = totalPresent;
+      document.querySelector(".total-students").textContent = totalStudents;
+      document.querySelector(".absent").textContent = absent;
+    };
+  </script> -->
 
 </body>
 </html>
