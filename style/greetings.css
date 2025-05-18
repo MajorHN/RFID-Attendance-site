@@ -1,19 +1,6 @@
 .greetings {
-    background-color: beige;
-    margin: 20px;
-    padding: 10px;
-    border: solid 1px gray;
+    border: 1px solid goldenrod;
     border-radius: 10px;
+    background-color: lightgoldenrodyellow ;
     text-align: center;
-}
-
-.greetings h1 {
-    margin: 0;
-    font-size: 60px;
-    color: cadetblue;
-}
-
-.greetings p {
-    color: brown;
-    font-weight: bold;
 }
