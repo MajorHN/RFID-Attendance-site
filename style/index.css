@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+body > div {
+    width: auto;
+}
+
+.content {
+    background-color: beige;
+    width: 85%;
+    padding: 20px;
+}
